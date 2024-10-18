@@ -1,5 +1,5 @@
 
-# Layoffs Data Analysis Script
+# Layoffs Data Exploration Script
 **Overview**
 This script is designed to clean, aggregate, and analyze data from a table containing company layoff information (layoffs_staging3). It includes SQL queries that perform data transformations, summary statistics, and trend analysis. The dataset contains information on layoffs, including company details, industry, country, total laid-off employees, percentage laid off, and funding.
 
