@@ -22,8 +22,8 @@ Maximum Layoff Values:
 Find the maximum values for total_laid_off and percentage_laid_off in the dataset.
 **sql**
 SELECT MAX(total_laid_off), MAX(percentage_laid_off) FROM layoffs_staging3;
-Filtering Companies with 100% Layoffs:
 
+Filtering Companies with 100% Layoffs:
 Identify companies that laid off 100% of their workforce, sorting them by either total layoffs or the amount of funds raised.
 **sql**
 SELECT * FROM layoffs_staging3 WHERE percentage_laid_off = 1 ORDER BY total_laid_off DESC;
